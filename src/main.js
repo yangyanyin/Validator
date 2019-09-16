@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import Va from './config/va'
+import Va from './components/validator/va'
+import Dialogs from './components/dialog/dialog'
 
 Vue.config.productionTip = false
 
 Vue.prototype.$validate = Va
+Vue.prototype.$Dialogs = Dialogs
 
 new Vue({
   router,
