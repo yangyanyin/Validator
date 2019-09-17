@@ -1,4 +1,4 @@
-# :tw-1f47f: 插件演示 DOME
+# 插件演示 DOME
 
 ## 项目设置
 
@@ -11,7 +11,7 @@ npm install
 ```
 npm run serve
 ```
-:tw-1f4d6:
+
 对应的封装js目录都在 `/src/components/`
 1. dialog ( 弹窗 )
 2. validator ( 验证 )
